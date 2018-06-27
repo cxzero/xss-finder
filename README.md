@@ -17,6 +17,7 @@ A sqlite database is created to store processing urls and injectable parameters.
 
 ## Usage
 Multithreading is supported by adding the option [--threads | -t]. By default the value is 1. Any new link to be processed is intended to be executed by a new thread (managed by a fix thread pool).
+
 If needed, cookies can be send along with HTTP requests; for this [--cookies | -c] must be added as an option.
 
 There are some other options showed below in command usage.
