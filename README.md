@@ -21,6 +21,7 @@ If needed, cookies can be send along with HTTP requests; for this [--cookies | -
 
 There are some other options showed below in command usage.
 
+```
 Usage: <main class> [options]
   Options:
     --cookies, -c
@@ -38,7 +39,7 @@ Usage: <main class> [options]
     --verbose, -v
       Display verbosity
       Default: false
-
+```
 
 ## Docker image
 In order to run the docker image execute ```docker run <image_id> <command_line_arguments>```
