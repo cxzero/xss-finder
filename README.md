@@ -9,7 +9,8 @@ A sqlite database is created to store processing urls and injectable parameters.
 ## Build
 1. Clone this repo locally
 2. Make sure to have [Apache Maven](http://maven.apache.org/) installed
-3. Execute ```mvn clean install```
+3. Make sure to have Java 8 or above installed
+4. Execute ```mvn clean install```
 
 ## Additional build features
 - Please note that tests run automatically as part of the normal build compilation. If you want to ommit tests run ```mvn clean install -DskipTests```
